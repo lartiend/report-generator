@@ -1,0 +1,55 @@
+
+body {
+   height:100%;
+   position:relative;
+}
+h3 {
+   margin-bottom: 15px;
+}
+main {
+   max-width: 991px;
+}
+main section {
+   padding:10px 10px 60px 10px; /* Height of the footer */
+   min-height: 100vh; /*min-height of content should be the whole viewport height*/
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background-color: lightgrey;
+}
+
+/*reports page*/
+#reports-page .main-section form {
+	min-height: 120px;
+	position: relative;
+}
+#reports-page .main-section form button{
+	position: absolute;
+	bottom: 0;
+}
+
+/*customers page*/
+#customers-page .main-section {
+   height: 200px;
+   margin-bottom: 2em;
+}
+#customers-page p {
+   margin: auto 0;
+}
+#customers-page .image-chart {
+   width: 100%;
+   background: url("../images/image-charts.jpg") no-repeat center;
+   background-size: cover;
+   border-radius: 5px;
+}
+#customers-page .main-section form {
+   min-height: 100px;
+   position: relative;
+}
+#customers-page .main-section form button{
+   position: absolute;
+   bottom: 0;
+}
